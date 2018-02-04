@@ -3,7 +3,8 @@ package DBaccess;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
-
+//Author: Koh Ding Yuan
+//Editor: Aaron Jeremy
 public class salesrecordentity_lineitementityDB {
     public boolean linkSrLiDB(int srId, int liId) throws Exception{
         int changesMade = 0;

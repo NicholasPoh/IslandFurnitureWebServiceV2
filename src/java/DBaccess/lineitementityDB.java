@@ -64,7 +64,7 @@ public class lineitementityDB {
                 ResultSet resultSet = ps.executeQuery();
                 resultSet.next();
                 int storeStock = resultSet.getInt("QUANTITY");
-
+                 
                 //Calculate Store Stock
                 if (storeStock < itemQuantity) {
                     itemQuantity -= storeStock;

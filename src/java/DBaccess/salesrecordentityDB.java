@@ -9,6 +9,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 //Author: Koh Ding Yuan
+//Editor: Nicholas Poh
 public class salesrecordentityDB {
     public int createSalesRecordDB(
         int memberId, int storeId, double transactionAmount) throws Exception{
